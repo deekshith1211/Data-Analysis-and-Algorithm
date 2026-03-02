@@ -34,4 +34,3 @@ int main() {
     printf("\n total number of comparison is %d",count);
     return 0;
 }
-}
