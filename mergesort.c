@@ -41,7 +41,7 @@ void Mergesort(int A[10], int l, int r)
 
         Mergesort(A, l, m);
         Mergesort(A, m + 1, r);
-        merge(A, l, m, r);   // ✅ Correct function call
+        merge(A, l, m, r);
     }
 }
 
@@ -65,4 +65,5 @@ int main()
     printf("\nTotal number of comparisons = %d", count);
 
     return 0;
+
 }
